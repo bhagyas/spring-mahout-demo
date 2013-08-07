@@ -49,6 +49,12 @@
         </pluginRepository>
     </pluginRepositories>
     <dependencies>
+		<dependency>
+		  <groupId>org.apache.mahout</groupId>
+		  <artifactId>mahout-core</artifactId>
+		  <version>0.4</version>
+		</dependency>
+    
         <!-- General dependencies for standard applications -->
         <dependency>
             <groupId>junit</groupId>
