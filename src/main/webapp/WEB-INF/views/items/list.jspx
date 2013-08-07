@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_intera_shoprecommender_Item" items="${items}" z="vh+/xrq8N+xj+tHzwsvjezYmlbE=">
+        <table:table data="${items}" id="l_com_intera_shoprecommender_Item" path="/items" z="zp/Unq7Jp/SH93hldCZlQBrB9w0=">
+            <table:column id="c_com_intera_shoprecommender_Item_itemName" property="itemName" z="7AEKkAIBiv3OCtcmgyI4JeFLOBg="/>
+        </table:table>
+    </page:list>
+</div>

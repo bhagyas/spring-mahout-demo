@@ -1,5 +1,19 @@
-<div id="menu" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
-	<jsp:directive.page contentType="text/html;charset=UTF-8" />
-	<jsp:output omit-xml-declaration="yes"/>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_shopper" z="h0adTftuh6FtcbZPih6UibbdcsY=">
+            <menu:item id="i_shopper_new" messageCode="global_menu_new" url="/shoppers?form" z="/QShMRGUeFFjT7s9b86Qb9BuH8c="/>
+            <menu:item id="i_shopper_list" messageCode="global_menu_list" url="/shoppers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="c784jwUHMaaP7h+wu25kWwmiXhY="/>
+        </menu:category>
+        <menu:category id="c_item" z="jWO1pnucyLwI2bZuwfja4eCYsjU=">
+            <menu:item id="i_item_new" messageCode="global_menu_new" url="/items?form" z="I+/MpOYxZ47XKvsQW1PUi6uC060="/>
+            <menu:item id="i_item_list" messageCode="global_menu_list" url="/items?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4RxBMvjr2gUD8qO0DTWmjd1SzS0="/>
+        </menu:category>
+        <menu:category id="c_purchase" z="8QaH8alfnegW/kwSmJSHxiiAWeQ=">
+            <menu:item id="i_purchase_new" messageCode="global_menu_new" url="/purchases?form" z="tAAEDpKozpL1K6LGvAXtZ7/0lJs="/>
+            <menu:item id="i_purchase_list" messageCode="global_menu_list" url="/purchases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="sYsFABPfyHD3DoZPPXTvfWETUKI="/>
+        </menu:category>
+    </menu:menu>
 </div>
