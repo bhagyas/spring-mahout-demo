@@ -5,3 +5,6 @@ project --topLevelPackage com.intera.shoprecommender --projectName ShopRecommend
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-07 05:48:58
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-07 05:49:14
 persistence setup --database HYPERSONIC_PERSISTENT --provider HIBERNATE 
+entity jpa --class com.intera.shoprecommender.Shopper
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-07 05:54:04
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-07 05:54:34
