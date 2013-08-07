@@ -36,5 +36,13 @@ Support or Contact
 ----
 If you discover any issues, please report them over at github - or simply fork the project, fix it and then do a pull request. =)
 
+Interesting projects
+---
+Also have a look at roostrap by @bhagyas, available at http://bhagyas.github.io/roostrap : a free and open source rapid application framework that enables you to build gorgeous cloud ready java applications in minutes!
+
+Authors
+---
+* Bhagya Nirmaan Silva (www.about.me/bhagyas)
+
 With love.
 <3
