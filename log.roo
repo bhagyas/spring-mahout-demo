@@ -8,3 +8,6 @@ persistence setup --database HYPERSONIC_PERSISTENT --provider HIBERNATE
 entity jpa --class com.intera.shoprecommender.Shopper
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-07 05:54:04
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-07 05:54:34
+entity jpa --class ~.Purchase
+field reference --fieldName purchaser --type ~.Shopper
+field set --fieldName items --type ~.Item --cardinality MANY_TO_MANY 
