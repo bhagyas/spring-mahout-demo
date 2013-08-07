@@ -15,3 +15,5 @@ web mvc setup
 web mvc all --package com.intera.shoprecommender.web
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-08-07 06:07:30
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-08-07 06:13:30
+finder list --class ~.Purchase
+finder add --class ~.Purchase --finderName findPurchasesByPurchaser

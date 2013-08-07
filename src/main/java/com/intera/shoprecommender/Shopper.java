@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.persistence.Transient;
 
+import org.apache.mahout.cf.taste.common.TasteException;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
@@ -16,18 +17,21 @@ import com.intera.shoprecommender.service.ItemRecommenderServiceImpl;
 @RooToString
 @RooJpaActiveRecord
 public class Shopper {
-	
+
 	@NotEmpty
 	String username;
 
 	/**
 	 * Returns a list of recommended items for a shopper
+	 * 
 	 * @return
+	 * @throws Exception 
 	 */
-	public List<Item> getRecommendedItems(){
+	public List<Item> getRecommendedItems() throws Exception {
 		ItemRecommenderService recommender = new ItemRecommenderServiceImpl();
-		
+
 		return recommender.getRecommendedItemsForShopper(this);
+
 	}
 
 }
