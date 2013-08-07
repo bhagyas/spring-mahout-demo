@@ -11,3 +11,4 @@ entity jpa --class com.intera.shoprecommender.Shopper
 entity jpa --class ~.Purchase
 field reference --fieldName purchaser --type ~.Shopper
 field set --fieldName items --type ~.Item --cardinality MANY_TO_MANY 
+web mvc setup
