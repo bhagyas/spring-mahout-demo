@@ -11,16 +11,17 @@ import org.apache.mahout.cf.taste.impl.recommender.slopeone.SlopeOneRecommender;
 import org.apache.mahout.cf.taste.model.DataModel;
 import org.apache.mahout.cf.taste.model.PreferenceArray;
 import org.apache.mahout.cf.taste.recommender.RecommendedItem;
+import org.springframework.stereotype.Service;
 
 import com.intera.shoprecommender.Item;
 import com.intera.shoprecommender.Purchase;
 import com.intera.shoprecommender.Shopper;
 
+@Service
 public class ItemRecommenderServiceImpl implements ItemRecommenderService {
 
 	@Override
-	public List<Item> getRecommendedItemsForShopper(Shopper shopper)
-			throws Exception {
+	public List<Item> getRecommendedItemsForShopper(Shopper shopper) throws Exception {
 
 		List<Item> items = new ArrayList<Item>();
 

@@ -34,4 +34,11 @@
       <img align="right" alt="${fn:escapeXml(sponsored)}" src="${logo}"/>
     </a>
   </span>
+  
+  <div style="background-color: silver;margin-top: 10px;">
+  	This is a demo application by @bhagyas (<a href="http://www.about.me/bhagyas">www.about.me/bhagyas</a>).
+  	
+  	<br/>
+  	Also, have a look at roostrap <a href="http://bhagyas.github.io/roostrap">http://bhagyas.github.io/roostrap</a>, an open source and free framework for building gorgeous enterprise apps within minutes.
+  </div>
 </div>
