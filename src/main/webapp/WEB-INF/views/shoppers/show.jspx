@@ -4,5 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_intera_shoprecommender_Shopper" object="${shopper}" path="/shoppers" z="sX7yBErOxJoxzy9ydxzvWassPH4=">
         <field:display field="username" id="s_com_intera_shoprecommender_Shopper_username" object="${shopper}" z="LrxbQ1g/Bx5YrGGdz/XJLwagkMg="/>
+        <field:display field="recommendedItems" id="s_com_intera_shoprecommender_Shopper_recommendedItems" object="${shopper}" z=""/>
+
     </page:show>
 </div>
